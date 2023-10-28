@@ -30,7 +30,7 @@ def handle_client(client_socket:socket.socket)->None:
 
 coordinate_server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 coordinate_server.bind(('IP_COORDINATE', PORT_COORDINATE))
-coordinate_server.listen(4)
+coordinate_server.listen(5)
 
 print("El servidor coordinador está escuchando")
 
